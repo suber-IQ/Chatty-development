@@ -1,5 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/uzochukwueddie/chatty-backend/tree/develop.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/uzochukwueddie/chatty-backend/tree/develop)
-[![codecov](https://codecov.io/gh/uzochukwueddie/chatty-backend/branch/develop/graph/badge.svg?token=VR3XBTQMCV)](https://codecov.io/gh/uzochukwueddie/chatty-backend)
+
 
 # Chatty App Backend
 
@@ -21,7 +20,6 @@
 
 Chatty App backend server is an interesting real-time social network application. It is developed using [node.js](https://nodejs.org/en/), [typescript](https://www.typescriptlang.org/), [redis](https://redis.io/download/) and [mongodb](https://www.mongodb.com/docs/manual/administration/install-community/).
 
-You can find the repo for the frontend built with react [here](https://github.com/uzochukwueddie/chatty).
 
 ## Features
 1. Signup and signin authentication
@@ -87,7 +85,7 @@ Make sure mongodb and redis are both running on your local machine.
 - You can run the command `npm run test` to execute the unit tests added to the features controllers.
 
 ## API Endpoints
-- The actual endpoints for the application can be found inside the folder named `endpoints` [https://github.com/uzochukwueddie/chatty-backend/tree/develop/endpoints](https://github.com/uzochukwueddie/chatty-backend/tree/develop/endpoints). 
+- The actual endpoints for the application can be found inside the folder named `endpoints` [https://github.com/suber-IQ/Chatty-development.git]https://github.com/suber-IQ/Chatty-development.git. 
 - The endpoint files all have a `.http` extension. 
 - To use this files to make api calls, install the extension called [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) on vscode.
 - Update the endpoints http files before using.
@@ -192,4 +190,3 @@ Make sure mongodb and redis are both running on your local machine.
 - Inside the `circleci.yml` file, you need to make some updates.
 - There are some properties named `<variable-prefix>` that you need to replace with the `prefix` value from your terraform `variables.tf`. Search the config.yml file and replace `<variable-prefix>`.
 
-## You can find the frontend code [here](https://github.com/uzochukwueddie/chatty)
